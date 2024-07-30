@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    font-family: "Roboro", "Arial", sans-serif;
+    background-color: whitesmoke;
+    border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.banner{
+    height: 400px;
+    width: 100%;
+    background: url(./img/banner.jpeg);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    text-align: center;
+}
+.container_img{
+    text-align: center;
+}
+.container_main_img{
+    display: inline-block;
+}
+.main_img{
+    width: 250px; 
+    height: 300px;
+    padding: 40px 40px 0px 40px;
+}
+.main_items{
+    font-family: "Roboro", "Arial", sans-serif;
+    padding-bottom: 50px;
+}
+h2{
+    color: #3f3f3f;
+    text-align: center;
+    font-family: "Roboro", "Arial", sans-serif;
+    font-weight: 400;
+    margin-top: 50px;
+}
+/*name*/
+.banner_title{
+    font-family: "DM Serif Display";
+    font-style: italic;
+    font-size: 60px;
+    margin: 0px;
+    color: white; 
+    margin-top: 100px;
+    display: inline-block;
+}
+.banner_text{
+    font-family: 'Roboto',"Arial", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 19px;
+    margin: 0px;
+    color: white;
+}
+.shop_now {
+    padding-bottom: 400px;
+    text-align: center;
+    border: 2px solid white; /* Параметры рамки */
+    padding: 5px 20px; /* Поля вокруг текста */
+    color: white;
+    background: none;
+    margin-top: 120px;
+    font-family: "Roboro", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    transition: all 0.3s ease-out;
+   }
+.shop_now:hover{
+    background-color: rgba(252, 147, 201, 0.8);;
+    
+}
+footer{
+    width: 100%;
+    border-top: 1px solid #acacac;
+    margin: 0px;
+}
+.fotter-menu{
+    text-decoration: none;
+    color: #3f3f3f;
+    font-family: "Roboro", "Arial", sans-serif;
+    float: right;
+    padding: 30px;
+}
+.instagram-ico{
+    margin-left: 50px;
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+}
+.pinterest-ico{
+    margin-left: 50px;
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+}
+/*ticker*/
+.news .ticker .news-items{
+    margin: 0;
+    padding: 0;
+}
+.news{
+    position: fixed;
+    background-color: #393939;
+    width: 100%;
+    height: 35px;
+    line-height: 33.5px;
+    padding-left: 100%;
+}  
+.news .ticker{
+    display: inline-block;
+    animation-name: news;
+    white-space: nowrap;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    padding-right: 100%;
+}
+@keyframes news{
+    0%{
+        transform: translate3d(0,0,0);
+    }
+    100%{
+        transform: translate3d(-100%,0,0);
+    }
+    
+}
+.news-items{
+    display: inline-block;
+    color: rgb(255, 224, 224);
+    padding:0 10px;
+    font-family: "Roboro", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}

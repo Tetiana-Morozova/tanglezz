@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: "Roboro", "Arial", sans-serif;
+    background-color: whitesmoke;
+    border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+footer{
+    width: 100%;
+    border-top: 1px solid #acacac;
+    margin: 0px;
+}
+.fotter-menu{
+    text-decoration: none;
+    color: #3f3f3f;
+    font-family: "Roboro", "Arial", sans-serif;
+    float: right;
+    padding: 30px;
+}
+.instagram-ico{
+    margin-left: 50px;
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+}
+.pinterest-ico{
+    margin-left: 50px;
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+}
